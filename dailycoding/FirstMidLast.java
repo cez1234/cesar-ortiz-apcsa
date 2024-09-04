@@ -19,8 +19,7 @@ class FirstMidLast {
         val4 = scan.nextLine();
         val5 = scan.nextLine();
 
-        System.out.print("First(" + val1 + ") Middle(" + val3 + ") + Last(" + val5 + ")");
-
+        System.out.println("First(" + val1 + ") Middle(" + val3 + ") + Last(" + val5 + ")");
 
 
     }
