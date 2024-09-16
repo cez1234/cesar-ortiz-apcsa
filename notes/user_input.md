@@ -6,7 +6,7 @@ Tou must initialize tghe Scanner class in the following way:
 
 ``java
 
-Scanner userInout = new Scanner(System.in);
+Scanner userInput = new Scanner(System.in);
 
 int age = userInput.nextInt();
 
