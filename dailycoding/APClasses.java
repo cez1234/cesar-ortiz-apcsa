@@ -3,8 +3,7 @@ import java.util.Scanner;
 class APClasses {
 
     public static void main (String[] args) {
-        Scanner
-        scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         int numClasses;
         String classes;
 
