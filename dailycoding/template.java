@@ -5,5 +5,6 @@ class template {
         Scanner scan = new Scanner(System.in);
 
         
+        close.scan();
     }
 }

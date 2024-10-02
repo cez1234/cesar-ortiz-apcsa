@@ -17,5 +17,7 @@ class Birthday {
         day = scan.nextInt();
 
         System.out.print("You were born on " + month + "/" + day + "/" + year);
+
+        close.scan();
     }
 }
