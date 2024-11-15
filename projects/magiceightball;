@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class magiceightball
+{
+    public static void main(String[] args) {
+       Scanner scan = new Scanner(System.in);
+       
+       String [] messages = {"Without a doubt","Yes definitley","Ask again later","Can not predict now","Very doubtful","My reply is no","It is certain","You may rely on it","Reply hazy, try again", "Better not tell you now","My sources say no","Don't count on it"};
+       int num = (int)(Math.random()*11);
+       
+       System.out.println("What is your question?");
+       scan.nextLine();
+       System.out.println(messages[num]);
+    }
+}
